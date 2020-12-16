@@ -1,0 +1,6 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 14 products, 11 sources, 7 libraries
+[debug] current source = Set(${BASE}/src/test/scala/sushishop/GrpcMethods.scala, ${BASE}/src/test/scala/sushishop/GrpcSimulation.scala, ${BASE}/src/test/scala/sushishop/ReliabilitySimulation.scala, ${BASE}/src/test/scala/sushishop/SushiMethods.scala, ${BASE}/src/test/scala/example/ExampleMethods.scala, ${BASE}/src/test/scala/sushishop/SushiSimulation.scala, ${BASE}/src/test/scala/example/ExampleInjects.scala, ${BASE}/src/test/scala/sushishop/ReliabilityInjects.scala, ${BASE}/src/test/scala/sushishop/SushiInjects.scala, ${BASE}/src/test/scala/sushishop/GrpcInjects.scala, ${BASE}/src/test/scala/example/ExampleSimulation.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes

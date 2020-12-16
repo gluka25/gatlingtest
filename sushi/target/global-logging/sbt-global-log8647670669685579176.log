@@ -1,0 +1,13 @@
+[debug] > Exec(compile, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Protobufs files found, but PB.targets is empty.
+[debug] Forcing garbage collection...
+[success] Total time: 2 s, completed Dec 16, 2020, 7:30:56 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,10 @@
+{
+  "simulation": "sushishop.GrpcSimulation",
+  "simulationId": "grpcsimulation",
+  "start": 1608149150436,
+  "description": "",
+  "scenarios": ["scenarioOne"],
+  "assertions": [
+
+  ]
+}

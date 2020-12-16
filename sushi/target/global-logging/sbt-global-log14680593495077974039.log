@@ -1,0 +1,102 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\manakova.g\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\manakova.g\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.4 (Oracle Corporation Java 13.0.1)
+[debug]       Load.loadUnit: plugins took 139.0948ms
+[debug]       Load.loadUnit: defsScala took 0.3182ms
+[debug] [Loading] Scanning directory C:\Users\manakova.g\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\manakova.g\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.5107 ms
+[debug]           Load.resolveProject(global-plugins) took 47.6025ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\manakova.g\.sbt\1.0\plugins, plugins: List(<none>))) took 115.2921ms
+[debug] [Loading] Done in C:\Users\manakova.g\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 176.1281ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2145ms
+[debug]     Load.loadUnit(file:/C:/Users/manakova.g/.sbt/1.0/plugins/, ...) took 324.6891ms
+[debug]   Load.apply: load took 614.9398ms
+[debug]   Load.apply: resolveProjects took 20.7556ms
+[debug]   Load.apply: finalTransforms took 277.1044ms
+[debug]   Load.apply: config.delegates took 13.8912ms
+[debug]   Load.apply: Def.make(settings)... took 1650.3612ms
+[debug]   Load.apply: structureIndex took 236.0777ms
+[debug]   Load.apply: mkStreams took 1.3953ms
+[info] loading global plugins from C:\Users\manakova.g\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4851.8473ms
+[debug]           Load.loadUnit: plugins took 35.5923ms
+[debug]           Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\project
+[debug]             Load.loadUnit: mkEval took 5.1176ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6773 ms
+[info] loading settings for project sushi-build from plugins.sbt,idea.sbt ...
+[debug]               Load.resolveProject(sushi-build) took 3.021ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sushi-build, base: C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\project, plugins: List(<none>))) took 5.247ms
+[debug] [Loading] Done in C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\project, returning: (sushi-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 303.115ms
+[debug]           Load.loadUnit: cleanEvalClasses took 15.3315ms
+[debug]         Load.loadUnit(file:/C:/Users/manakova.g/Desktop/load/gatling/testsushi/sushi/project/, ...) took 355.1118ms
+[debug]       Load.apply: load took 356.6165ms
+[debug]       Load.apply: resolveProjects took 0.1261ms
+[debug]       Load.apply: finalTransforms took 10.7032ms
+[debug]       Load.apply: config.delegates took 0.3332ms
+[debug]       Load.apply: Def.make(settings)... took 162.6046ms
+[debug]       Load.apply: structureIndex took 117.3665ms
+[debug]       Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2089.3192ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi
+[debug]       Load.loadUnit: mkEval took 1.0187ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(io.gatling.sbt.GatlingPlugin), Atom(sbtassembly.AssemblyPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(io.gatling.sbt.GatlingPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbtassembly.AssemblyPlugin,io.gatling.sbt.GatlingPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.0028 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 41.8311ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi, plugins: List(<none>))) took 45.7134ms
+[debug] [Loading] Done in C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 451.3912ms
+[debug]     Load.loadUnit: cleanEvalClasses took 57.7887ms
+[debug]   Load.loadUnit(file:/C:/Users/manakova.g/Desktop/load/gatling/testsushi/sushi/, ...) took 2599.4824ms
+[debug] Load.apply: load took 2601.1651ms
+[debug] Load.apply: resolveProjects took 0.1011ms
+[debug] Load.apply: finalTransforms took 44.6775ms
+[debug] Load.apply: config.delegates took 0.9329ms
+[debug] Load.apply: Def.make(settings)... took 192.8282ms
+[debug] Load.apply: structureIndex took 40.714ms
+[debug] Load.apply: mkStreams took 0.0019ms
+[info] set current project to sushi (in build file:/C:/Users/manakova.g/Desktop/load/gatling/testsushi/sushi/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 4628 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 4628, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to sushi (in build file:/C:/Users/manakova.g/Desktop/load/gatling/testsushi/sushi/)
+[debug] > Exec(idea-shell, None, None)

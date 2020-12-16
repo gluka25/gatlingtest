@@ -1,0 +1,16 @@
+{
+  "name":"${name}",
+  "email":"${email}",
+  "adress":"${address}",
+  "cartItems":[
+    {
+      "_id":"sushi1",
+      "title":"${title}",
+      "image":"/images/sushi1.jpg",
+      "description":"${description}",
+      "price":"${price}",
+      "availableSizes":["Small","Big"],
+      "count":"${count}"
+    }
+  ]
+}

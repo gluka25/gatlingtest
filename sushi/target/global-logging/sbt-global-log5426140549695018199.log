@@ -1,0 +1,7 @@
+[debug] > Exec(gatling:testOnly example.ExampleSimulation, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Simulation ExampleSimulation successful.
+[info] Simulation(s) execution ended.
+[success] Total time: 126 s (02:06), completed Dec 12, 2020, 10:26:36 PM
+[debug] > Exec(idea-shell, None, None)

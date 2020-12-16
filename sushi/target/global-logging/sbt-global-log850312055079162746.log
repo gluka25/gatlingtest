@@ -1,0 +1,8 @@
+[debug] > Exec(gatling:testOnly sushishop.ReliabilitySimulation, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Simulation ReliabilitySimulation successful.
+[info] Simulation(s) execution ended.
+[debug] Forcing garbage collection...
+[success] Total time: 3669 s (01:01:09), completed Dec 16, 2020, 10:53:48 PM
+[debug] > Exec(idea-shell, None, None)

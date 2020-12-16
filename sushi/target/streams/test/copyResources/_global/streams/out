@@ -1,0 +1,8 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\clients.csv,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\clients.csv)
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\countries.csv,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\countries.csv)
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\gatling.conf,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\gatling.conf)
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\logback.xml,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\logback.xml)
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\orderTemplate.json,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\orderTemplate.json)
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\recorder.conf,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\recorder.conf)
+[debug] 	(C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\resources\sushiBase.csv,C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes\sushiBase.csv)

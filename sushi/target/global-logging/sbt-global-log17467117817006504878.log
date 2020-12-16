@@ -1,0 +1,3 @@
+[debug] > Exec(gatling:testOnly sushishop.GrpcSimulation, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

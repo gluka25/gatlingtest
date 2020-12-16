@@ -1,0 +1,20 @@
+[debug] > Exec(gatling:testOnly sushishop.GrpcSimulation, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] Protobufs files found, but PB.targets is empty.
+[info] compiling 11 Scala sources to C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes ...
+[error] C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\scala\sushishop\GrpcMethods.scala:3:8: not found: object books
+[error] import books.books_1801_caad7f.{BookServiceGrpc, Empty}
+[error]        ^
+[error] C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\scala\sushishop\GrpcMethods.scala:14:10: not found: value BookServiceGrpc
+[error]     .rpc(BookServiceGrpc.METHOD_LIST)
+[error]          ^
+[error] C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\src\test\scala\sushishop\GrpcMethods.scala:15:14: not found: value Empty
+[error]     .payload(Empty())
+[error]              ^
+[error] three errors found
+[debug] Forcing garbage collection...
+[error] (Test / compileIncremental) Compilation failed
+[error] Total time: 11 s, completed Dec 16, 2020, 8:13:22 PM
+[debug] > Exec(idea-shell, None, None)

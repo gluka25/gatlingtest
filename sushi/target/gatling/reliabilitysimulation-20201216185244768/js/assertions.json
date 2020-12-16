@@ -1,0 +1,10 @@
+{
+  "simulation": "sushishop.ReliabilitySimulation",
+  "simulationId": "reliabilitysimulation",
+  "start": 1608144764768,
+  "description": "",
+  "scenarios": ["scenarioTwo", "scenarioOne", "scenarioThree"],
+  "assertions": [
+
+  ]
+}

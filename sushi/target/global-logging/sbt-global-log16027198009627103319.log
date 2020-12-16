@@ -1,0 +1,14 @@
+[debug] > Exec(gatling:testOnly sushishop.SushiSimulation, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes ...
+[warn] there were 7 feature warnings; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[info] compiling 1 Scala source to C:\Users\manakova.g\Desktop\load\gatling\testsushi\sushi\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] Simulation SushiSimulation successful.
+[info] Simulation(s) execution ended.
+[debug] Forcing garbage collection...
+[success] Total time: 429 s (07:09), completed Dec 14, 2020, 9:07:04 PM
+[debug] > Exec(idea-shell, None, None)
